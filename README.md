@@ -2689,6 +2689,32 @@ A BabyAGI-inspired agent that can recall infinite memory, "thinks" before making
 
 </details>
 
+## [Unified AI System](https://github.com/happy520ai/unified-ai-system)
+Self-hosted AI gateway with virtual keys, semantic cache, and reverse MCP governance
+
+<details>
+
+<p><img src="https://raw.githubusercontent.com/happy520ai/unified-ai-system/master/docs/assets/social-preview.png" alt="Unified AI System" /></p>
+
+### Category
+General purpose
+
+### Description
+- Self-hosted AI gateway (Node/TypeScript, Apache-2.0) that fronts OpenAI- and Anthropic-compatible chat APIs behind one governed boundary.
+- Virtual keys with periodic token budgets: issue uai- keys with daily/monthly windows, per-key RPM, soft-budget alerts, spend attribution, instant revocation - consumers never hold provider keys.
+- Exact + semantic response cache on the chat hot path with byte-identical SSE replay and per-tenant isolation.
+- Reverse MCP governance: aggregate upstream MCP servers (HTTP + stdio) behind one authenticated, audited, allow-listed surface; any OpenAPI 3 spec becomes governed MCP tools.
+- Chat-native Prometheus metrics (TTFT histograms, tokens per model, cache hit rates) plus optional Langfuse export.
+- Fake-provider-first: every feature works with zero credentials; real provider calls stay behind an explicit three-gate whitelist.
+- Language: TypeScript (Node.js)
+
+### Links
+- [GitHub](https://github.com/happy520ai/unified-ai-system)
+- [Docs](https://happy520ai.github.io/unified-ai-system/)
+- [v0.5.0 release](https://github.com/happy520ai/unified-ai-system/releases/tag/v0.5.0)
+
+</details>
+
 ## [UFO](https://github.com/microsoft/UFO)
 A UI-Focused agent on Windows OS
 
