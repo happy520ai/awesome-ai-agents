@@ -2711,7 +2711,7 @@ General purpose
 ### Links
 - [GitHub](https://github.com/happy520ai/unified-ai-system)
 - [Docs](https://happy520ai.github.io/unified-ai-system/)
-- [v0.5.0 release](https://github.com/happy520ai/unified-ai-system/releases/tag/v0.5.0)
+- [v0.8.0 release](https://github.com/happy520ai/unified-ai-system/releases/tag/v0.8.0)
 
 </details>
 
