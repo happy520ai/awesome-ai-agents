@@ -2703,7 +2703,7 @@ General purpose
 - Self-hosted AI gateway (Node/TypeScript, Apache-2.0) that fronts OpenAI- and Anthropic-compatible chat APIs behind one governed boundary.
 - Virtual keys with periodic token budgets: issue uai- keys with daily/monthly windows, per-key RPM, soft-budget alerts, spend attribution, instant revocation - consumers never hold provider keys.
 - Exact + lexical-approximate response cache on the chat hot path with byte-identical SSE replay and per-tenant isolation.
-- Reverse MCP governance: aggregate upstream MCP servers (HTTP + stdio) behind one authenticated, audited, allow-listed surface; any OpenAPI 3 spec becomes governed MCP tools.
+- Reverse MCP governance: aggregate upstream MCP servers (HTTP + stdio) behind one authenticated, audited, allow-listed surface; each unambiguous OpenAPI 3 operation becomes a governed MCP tool.
 - Chat-native Prometheus metrics (TTFT histograms, tokens per model, cache hit rates) plus optional Langfuse export.
 - Fake-provider-first: every feature works with zero credentials; real provider calls stay behind an explicit three-gate whitelist.
 - Language: TypeScript (Node.js)
